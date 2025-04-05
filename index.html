@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Sohom Mandal</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:sohom@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Sohom 👋</h2>
+        <p>Creative and detail-oriented frontend web developer with a passion for crafting responsive, user-friendly websites. Skilled in HTML, CSS, JavaScript, and modern frameworks. Dedicated to delivering clean code and seamless user experiences. Always learning and adapting to new technologies to build engaging and accessible web applications.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="./images/shelf1.webp" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Skilled in HTML, CSS, and JavaScript for creating responsive web designs. Familiar with Python and C for basic programming tasks, adding versatility to problem-solving and development capabilities.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/IMG-20250405-WA0004.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/IMG-20250405-WA0002.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/IMG-20250405-WA0001.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/IMG-20250405-WA0003.webp" alt="C logo">
+          <span>C</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/IMG-20250405-WA0000.webp" alt="Python logo">
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/shelf2.webp">
+          <p>Sohom Mandal</p>
+          <p>Frontend Web Developer</p>
+        </div>
+
+        <div class="text">
+          “Working with this frontend developer was a great experience. They built a clean, responsive website exactly as I envisioned. Their skills in HTML, CSS, and JavaScript really stood out, and their understanding of Python and C added extra value. Highly recommended for any web development project.”
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Feel free to reach out for any web development needs or collaboration opportunities. Whether it's building a responsive website, fixing design issues, or bringing ideas to life, I’m here to help. You can contact me via email or through the form below. Let’s create something great together!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
