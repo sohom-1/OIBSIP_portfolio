@@ -35,19 +35,19 @@ To get started with the project, follow these steps:
 
 1. *Clone the repository*:
     bash
-    git clone https://github.com/aman9832/OIBSIP_portfolio_website.git
+    git clone https://github.com/sohom-1/OIBSIP_portfolio.git
     
 
 2. *Open the project directory*:
     bash
-    cd OIBSIP_portfolio_website
+    cd OIBSIP_portfolio
     
 
 3. *Run the project*:
-    - Open the index.html file in a web browser to start using the Temperature Converter.
+    - Open the index.html file in a web browser to discover my portfolio.
 
 ## Contact
 For feedback, suggestions, or collaboration, feel free to reach out:
-📧 skmdamanr98@gmail.com
+📧 mandalsohom777@gmail.com
 
 Thank you for visiting my portfolio! Hope you enjoyed exploring my work. 😊
