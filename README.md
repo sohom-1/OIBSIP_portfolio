@@ -7,9 +7,9 @@ This repository contains the source code and files for my personal portfolio web
 A responsive and minimalistic web portfolio to showcase my skills, projects, and contact information. This webpage serves as my personal corner on the internet—built purely with HTML and CSS, no frameworks or libraries.
 
 ## Link
-- *Website Link:*  https://aman9832.github.io/OIBSIP_portfolio_website/ 
+- *Website Link:*  https://sohom-1.github.io/OIBSIP_portfolio/
 
-- *Repository Link:*  https://github.com/aman9832/OIBSIP_portfolio_website
+- *Repository Link:*  https://github.com/sohom-1/OIBSIP_portfolio
 
 ## Features
 
